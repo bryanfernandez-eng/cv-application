@@ -1,4 +1,3 @@
-import React from 'react'
 import FormRenderer from './FormRenderer'
 
 function Form({ form, setForm, children }) {

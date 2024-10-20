@@ -1,4 +1,3 @@
-import React from 'react'
 import InputForm from '../common/InputForm'
 
 function FormRenderer({ setForm, form }) {

@@ -6,7 +6,7 @@ import EditSectionData from "./EditSectionData";
 
 function Section({ sectionData, setSectionData, sectionTitle = "Title", formSchema, highlightKey }) {
 
-    const [isOpen, setIsOpen] = useState(true);
+    const [isOpen, setIsOpen] = useState(false);
     const [isAdding, setIsAdding] = useState(false);
     const [isEditing, setIsEditing] = useState(false);
     const [editDataID, setEditDataID] = useState(null);

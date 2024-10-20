@@ -98,5 +98,6 @@ export const generalInformationData = {
     name: 'Bryan A Fernandez', 
     email: 'b305ryan123@gmail.com',
     phoneNumber: '305-992-9668',
-    address: 'Miami, FL'
+    address: 'Miami, FL', 
+    linkedin: 'https://www.linkedin.com/in/bryanafernandez/'
 }

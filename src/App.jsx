@@ -5,6 +5,7 @@ import { generalInformationData } from "./dummy.js";
 import EducationalExperience from "./components/sections/EducationalExperience.jsx";
 import PracticalExperience from "./components/sections/PracticalExperience.jsx";
 import GeneralInformation from "./components/sections/GeneralInformation.jsx";
+import CVDisplay from "./components/sections/CVDisplay.jsx";
 
 function App() {
 
@@ -28,7 +29,10 @@ function App() {
           sectionTitle="Experience" />
       </div>
       <div className="cv-container">
-
+        <CVDisplay 
+          education={education}
+          experience={experience}
+          generalInformation={generalInformation}/>
       </div>
     </div>
   )

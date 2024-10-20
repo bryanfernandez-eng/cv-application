@@ -1,7 +1,5 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import CollapseSection from '../common/CollapseSection'
-import InputForm from '../common/InputForm'
-import FormRenderer from '../forms/FormRenderer'
 import Form from '../forms/Form'
 
 function GeneralInformation({ generalInformation, setGeneralInformation }) {
