@@ -7,8 +7,7 @@
 body{
     display: flex; 
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f1f1f1;
 }
@@ -16,26 +15,30 @@ body{
 .container {
     display: flex; 
     flex-direction: row;
+    align-items: flex-start;
     background-color: blue;
     gap: 1.5em;
-
+    /* min-height: 50em; */
+    min-height: 100vh;
+    min-width: 60em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    /* padding-bottom: 4em; */
 }
 
-.sections-container{
+.sections-container {
     display: flex;
     flex-direction: column;
     gap: .5em;
-    min-width: 20em;
+    min-width: 25em;
     background-color: green;
     justify-content: flex-start;
-
-    /* padding: 1em; */
 }
 
-.cv-container{
-    min-width: 35em; 
+.cv-container {
+    min-width: 40em; 
     background-color: green;
-    min-height: 20em; 
+    min-height: 50em; 
 }
 
 .section {
@@ -47,10 +50,11 @@ body{
     padding: 1em;
 }
 
-.collapse-display{
+.collapse-display {
     display: flex; 
     justify-content: space-between;
     align-items: center;
+    min-width: 4em;
 }
 
 .collapse-display button {
@@ -58,8 +62,8 @@ body{
     background-color: transparent;
     cursor: pointer;
     font-size: 2.5em;
+    padding-left: 1em;
 }
-
 
 .list-items-display{
     display: flex;
@@ -78,12 +82,8 @@ body{
 .item-display{
     display: flex;
     flex-direction: row;
-   
-
-
     align-items: space-between;
     justify-content: space-between;
-
     gap: 2em
 }
 
@@ -97,7 +97,7 @@ body{
     display: flex; 
     flex-direction: column;
     align-items: flex-start;
-    gap: .5em; 
+    gap: .8em; 
 }
 
 .input-form-items{
@@ -113,7 +113,6 @@ body{
     gap: 1em;
     font-size: 1.2em;
 }
-
 
 .form-button-group{
     display: flex;

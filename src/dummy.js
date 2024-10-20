@@ -93,3 +93,10 @@ export const experienceData = [
         responsibilities: "Conducted research on machine learning algorithms and their applications. Assisted in preparing research papers for publication in academic journals. Presented findings at university-sponsored conferences and seminars."
     }
 ];
+
+export const generalInformationData = {
+    name: 'Bryan A Fernandez', 
+    email: 'b305ryan123@gmail.com',
+    phoneNumber: '305-992-9668',
+    address: 'Miami, FL'
+}
