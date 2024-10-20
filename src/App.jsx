@@ -1,17 +1,23 @@
-import React, { useState } from "react";
-import EducationalExperience from "./components/sections/EducationalExperience.jsx";
+import { useState } from "react";
 import { educationData } from "./dummy.js";
 import { experienceData } from "./dummy.js";
+import { generalInformationData } from "./dummy.js";
+import EducationalExperience from "./components/sections/EducationalExperience.jsx";
 import PracticalExperience from "./components/sections/PracticalExperience.jsx";
+import GeneralInformation from "./components/sections/GeneralInformation.jsx";
 
 function App() {
 
   const [education, setEducation] = useState(educationData);
-  const [experience, setExperience] = useState(experienceData)
+  const [experience, setExperience] = useState(experienceData); 
+  const [generalInformation, setGeneralInformation] = useState(generalInformationData);
 
   return (
     <div className="container">
       <div className="sections-container">
+        <GeneralInformation
+          generalInformation={generalInformation}
+          setGeneralInformation={setGeneralInformation}/>
         <EducationalExperience
           education={education}
           setEducation={setEducation}
